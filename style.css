@@ -1,0 +1,135 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: fuchsia;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.student-img{
+    border-radius: 50%;
+    border: 3px 
+}
+.container:hover .student-img{
+    animation: pulse 2s infinite;
+    animation-timing-function: ease-in-out;
+}
+@keyframes pulse{
+    0%{box-shadow:0 0 4px orange}
+    25%{box-shadow:0 0 6px orange}
+    50%{box-shadow:0 0 10px orange}
+    75%{box-shadow:0 0 6px orange}
+    100%{box-shadow:0 0 4px orange}
+}
+body{
+    background-color:hsl(210, 46%, 95%);
+    width: 100%;
+    font-family: 'Oswald', sans-serif;color:hsl(0, 0%, 100%);
+    font-size: 0.8125rem;
+    line-height: 1.3em;
+    
+}
+#testimonials{
+    padding: 2em 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2em;
+    padding: 2em;
+    border-radius:2%;
+    box-shadow: 0 0 8px rgba(7, 7, 7, 0.4);
+    gap: 1em;
+    
+}
+.violet{
+    background-color:hsl(263, 55%, 52%);
+    background-image: url(./images/bg-pattern-quotation.svg);
+    background-repeat: no-repeat;
+    background-position: right 100px top 15px;
+}
+.grayish-blue{
+    background-color:hsl(217, 19%, 35%);
+}
+.blackish-blue{
+    background-color:hsl(219, 29%, 14%);
+}
+.white{
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(219, 29%, 14%);
+}
+
+.student-info{
+    display: flex;
+    align-items: center;
+    gap:1em;
+}
+.status{
+    opacity: 50%;
+    font-size: 0.6875rem;
+}
+.sec-text{
+    opacity: 70%;
+    font-style: italic;
+    text-align: justify;
+}
+.main-text{
+    font-size: 1.5rem;
+    line-height: 1.15em;
+}
+.attribution{
+    text-align: center;
+    color: black;
+    padding: 1em 0;
+}
+
+@media (min-width:48em){
+    :root{
+        font-size: 18px;
+    }
+    .container{
+        width: 70%;
+    }
+}
+@media (min-width:64em){
+    :root{
+        font-size: 15px;
+    }
+    #testimonials{
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0 0;
+        width: 80%;
+        height: 90vh;
+        margin: auto;
+        margin-top: 1em;
+        gap:2em;
+    }
+    .container{
+        width: 100%;
+        margin-top: 0;
+    }
+    .Daniel{
+        grid-column: 1/3;
+        grid-row: 1/2;
+    }
+    .Kira{
+        grid-column: 4/5;
+        grid-row: 1/3;
+    }
+    .Patrick{
+        grid-column: 2/4;
+        grid-row: 2/3;
+    }
+    .main-text{
+        font-size: 1.5em;
+    }
+
+}
