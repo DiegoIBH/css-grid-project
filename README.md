@@ -89,6 +89,6 @@ Having a better understanding on design and animation.
 
 ## Author
 
-- Website - [Add your name here](https://github.com/DiegoIBH)
+- Website - [DiegoIBH](https://github.com/DiegoIBH)
 - Frontend Mentor - [@Diego Barros](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@ibhDiego]
