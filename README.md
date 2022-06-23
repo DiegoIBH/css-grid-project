@@ -34,8 +34,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://diegoibh.github.io/css-grid-project/)
-- Live Site URL: [Add live site URL here](https://diegoibh.github.io/css-grid-project/)
+- Solution URL: [https://diegoibh.github.io/css-grid-project/](https://diegoibh.github.io/css-grid-project/)
+- Live Site URL: [https://diegoibh.github.io/css-grid-project/](https://diegoibh.github.io/css-grid-project/)
 
 ## My process
 
