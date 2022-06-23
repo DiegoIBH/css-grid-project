@@ -107,9 +107,8 @@ body{
         grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 0 0;
         width: 80%;
-        height: 90vh;
         margin: auto;
-        margin-top: 1em;
+        margin-top: 2em;
         gap:2em;
     }
     .container{
@@ -132,4 +131,19 @@ body{
         font-size: 1.5em;
     }
 
+}
+@media (min-width:72em){
+    :root{
+        font-size: 16px;
+    }
+}
+
+@media (min-width:87.5em){
+    :root{
+        font-size: 17px;
+    }
+    #testimonials{
+        width: 80%;
+    }
+    
 }
